@@ -1,1 +1,1 @@
-"# rapid_platform" 
+# rapid_platform 
