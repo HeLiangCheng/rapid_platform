@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.hlc.platform</groupId>
+    <artifactId>rapid-parent</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0</version>
+    <description>快速开发平台：基于Java的快速开发平台，包括了代码生成工具、定时任务、接口文档生成、MockServer</description>
+    <modules>
+        <module>rapid-generator</module>
+        <module>rapid-core</module>
+        <module>rapid-apitodoc</module>
+        <module>rapid-workflow</module>
+        <module>rapid-upms</module>
+    </modules>
+
+</project>
